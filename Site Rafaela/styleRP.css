@@ -1,0 +1,166 @@
+   @charset "utf-8";
+   /* CSS Document */
+   /*Pagina Centralizada*/
+   
+   body {
+       overflow-x: hidden;
+   }
+   
+   .header-background {
+       background-color: rgb(221, 214, 214);
+   }
+   /*logo e nome*/
+   
+   #container {
+       display: inline;
+       position: relative;
+       text-align: center;
+       text-decoration: none
+   }
+   
+   #container h2 {
+       display: inline;
+       position: relative;
+       font-family: 'Anton', Serif;
+       font-size: 100px;
+       color: black;
+       left: 80px;
+       text-align: center;
+       top: -100px;
+   }
+   /* Menu*/
+   
+   #menu {
+       background-color: rgb(221, 214, 214);
+   }
+   
+   #menu ul {
+       font-family: 'Lato', serif;
+       font-size: 24px;
+       padding: 10px;
+       margin: 10px;
+       list-style: none;
+   }
+   
+   #menu ul li {
+       display: inline;
+   }
+   
+   #menu ul li a {
+       padding: 10px 40px;
+       display: inline-block;
+       /* visual do link */
+       background-color: rgb(221, 214, 214);
+       color: black;
+       text-decoration: none;
+       border-bottom: 3px solid white;
+   }
+   
+   #menu ul li a:hover {
+       background-color: #D6D6D6;
+       color: #6D6D6D;
+       border-bottom: 3px solid black;
+   }
+   
+   p#id1 {
+       font-family: 'Abel', serif;
+       font-size: 18px;
+       text-align: center;
+       margin: 35px;
+   }
+   
+   H1 {
+       font-family: 'Alata', Serif;
+       font-size: 36px;
+       padding-top: 100px;
+       padding-bottom: 25px;
+       margin: 10px;
+       text-align: center;
+   }
+   
+   #ul {
+       list-style-position: inside;
+       display: inline-table;
+   }
+   
+   #ul li {
+       font-family: 'Abel', serif;
+       font-size: 18px;
+       text-align: center;
+   }
+   
+   #historia {
+       text-align: center;
+   }
+   
+   #historia p {
+       text-align: justify;
+       padding-left: 20%;
+       padding-right: 20%;
+   }
+   
+   
+   #contato a {
+       color: black;
+       font-family: 'Abel', serif;
+       font-size: 24px;
+       text-align: left;
+       padding: 10px 10px;
+       display: inline-block;
+   }
+   
+   .footer-background {
+       background-color: rgb(221, 214, 214);
+   }
+   
+   div#cnpj {
+       color: black;
+       font-family: 'Abel', serif;
+       font-size: 14px;
+       padding-top: 25px;
+   }
+   
+   div#cr {
+       color: black;
+       font-family: 'Abel', serif;
+       font-size: 11px;
+       padding-top: 25px;
+   }
+   
+   p#dev {
+       color: black;
+       font-family: 'Abel', serif;
+       font-size: 11px;
+   }
+   
+   a#deva {
+       color: black;
+   }
+   
+   #moldura {
+       width: 600px;
+       height: 450px;
+       background-color: #eeeeee;
+       transition: background-image 2s;
+       margin-top: auto;
+       margin-bottom: auto;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   .modificastrong {
+       font-family: 'Abel', serif;
+       font-size: 18px;
+       font-weight: normal;
+   }
+
+   .imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 25%;
+    height: 700px;
+}
+
+.imagem-carrossel-dois{
+    object-fit: cover;
+    height: 700px;
+}
